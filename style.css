@@ -1,0 +1,73 @@
+/* 
+  Body 
+*/
+* {
+    box-sizing:border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+  }
+  /* End Body */
+
+  
+  .parallax {
+    background-image: url("images/NewBackground.png"); 
+    /* Set a specific height */
+    min-height: 100px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+  }
+
+  .logo {
+    width: 40%;
+    height: auto;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    resize: vertical;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+    color: rgb(129, 130, 132);
+    background-color: rgb(226, 227, 229);
+    -webkit-appearance:none;
+    border-radius: none;
+    letter-spacing: 0.5px;
+  }
+
+  input[type=submit] {
+    background-color: rgba(187,23,11); 
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3px;
+    font-size: 15px;
+  }
+
+
+  
+  
+
